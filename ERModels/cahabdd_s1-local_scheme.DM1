@@ -31,7 +31,7 @@ VersionId,Version_ID,Copyright,Global_User_ID,Row_Time_Stamp
 
 Diagram
 DiagramId,Version_ID,VersionId,LastUpdate,CreateDate,ActiveModel,ActiveSubmodel,VSplitterPosition,X,Y,Width,Height,DiagramNameId,AuthorId,CompanyId,VersionNoId,CopyrightStringId,DefinitionId,UnificationOptionId,FileNameId,CopyrightYearStringId,DiagramName,CodePage,SignatureGUID,ReleaseName,Flags,Global_User_ID,Row_Time_Stamp
-1,1,800,06/05/2020 19:29:37G,06/02/2020 22:38:41G,1,1,180,0,0,0,0,76,77,78,79,78,0,80,76,0,cahabdd_s1-local_scheme.DM1,1252,NULL,NULL,0,1,0
+1,1,800,06/05/2020 21:14:25G,06/02/2020 22:38:41G,1,1,180,0,0,0,0,76,77,78,79,78,0,80,76,0,cahabdd_s1-local_scheme.DM1,1252,NULL,NULL,0,1,0
 
 Model
 DiagramId,ModelId,Model_ID,ModelType,PlatformId,NamePrefix,SpaceHandling,CaseHandling,GenPrimaryKey,GenAlternateKey,GenInversionEntry,GenForeignKey,Notation,ModelNameId,RowOverhead,TableOverhead,IndexOverhead,BlobOverhead,BlobBlockSize,Global_User_ID,Row_Time_Stamp
@@ -294,7 +294,7 @@ DiagramId,ModelId,EntityId,Entity_ID,Model_ID,EntityNameId,TableNameId,Definitio
 1,1,9,9,1,90,90,0,0,0,0,0,0,0,0,0,133,0
 1,1,10,10,1,91,91,0,0,0,0,0,0,0,0,0,135,0
 1,1,11,11,1,92,92,0,0,0,0,0,0,0,0,0,137,0
-1,1,12,12,1,85,85,0,0,0,0,0,0,0,0,0,139,0
+1,1,12,12,1,94,94,0,0,0,0,0,0,0,0,0,139,0
 
 TableStorage
 DiagramId,ModelId,EntityId,TableStorage_ID,Entity_ID,Location,FillfactorPercent,MaximumRowsPerPage,PercentFree,PercentUsed,MinimumExtents,MaximumExtents,InitialExtentSize,NextExtentSize,ExtentGrowthFactor,MinimumTransactions,MaximumTransactions,LockModeSetting,RowCount,DataGrowth,GrowthRate,GrowthType,GrowthPeriod,MaximumSize,Global_User_ID,Row_Time_Stamp
@@ -673,7 +673,6 @@ String_Id,Data,Overflow,ConstantString,Row_Time_Stamp
 82,SUCURSAL_TALLER_F1_CAH_S1,0,0,0
 83,SUCURSAL_VENTA_F1_CAH_S1,0,0,0
 84,LAPTOP_F2_CAH_S1,0,0,0
-85,LAPTOP_INVENTARIO_F2_CAHA_S1,0,0,0
 86,HISTORICO_STATUS_LAPTOP_F2_CAH_S1,0,0,0
 87,LAPTOP_REEMPLAZO_ID,0,0,0
 89,TIPO_PROCESADOR_R_CAH_S1,0,0,0
@@ -681,6 +680,7 @@ String_Id,Data,Overflow,ConstantString,Row_Time_Stamp
 91,TIPO_ALMACENAMIENTO_R_CAH_S1,0,0,0
 92,TIPO_MONITOR_R_CAH_S1,0,0,0
 93,SERVICIO_LAPTOP_F1_CAH_S1,0,0,0
+94,LAPTOP_INVENTARIO_F2_CAH_S1,0,0,0
 
 LargeString
 String_Id,Data,Row_Time_Stamp
@@ -715,8 +715,8 @@ StringUsage_Id,UniqueObject_Id,StringUsageType_Id,String_Id,Row_Time_Stamp
 26,135,2,91,0
 27,137,1,92,0
 28,137,2,92,0
-29,139,1,85,0
-30,139,2,85,0
+29,139,1,94,0
+30,139,2,94,0
 31,168,14,23,0
 32,168,15,23,0
 33,168,62,24,0
@@ -1169,7 +1169,7 @@ Identity_Value_ID,Table_Name,Column_Name,Next_Valid_Value,Global_User_ID,Row_Tim
 14,Bound_Dictionary_Object,Bound_Dictionary_Object_ID,1,0,0
 15,CheckConstraints,CheckConstraints_ID,1,0,0
 16,Circular_Layout,Circular_Layout_ID,2,0,0
-17,ColorDefault,ColorDefault_ID,99,0,0
+17,ColorDefault,ColorDefault_ID,100,0,0
 18,Column_Usage,Column_Usage_ID,1,0,0
 19,Components_Layout,Components_Layout_ID,2,0,0
 20,Configuration_Option,Configuration_Option_ID,1,0,0
