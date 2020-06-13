@@ -57,32 +57,32 @@ from dual;
 
 Prompt validando sinonimos para TIPO_ALMACENAMIENTO
 select
-(select count(1) from TIPO_ALMACENAMIENTO_R_1) as TIPO_ALMACENAMIENTO_R_1,
-(select count(1) from TIPO_ALMACENAMIENTO_R_2) as TIPO_ALMACENAMIENTO_R_2,
-(select count(1) from TIPO_ALMACENAMIENTO_R_3) as TIPO_ALMACENAMIENTO_R_3,
-(select count(1) from TIPO_ALMACENAMIENTO_R_4) as TIPO_ALMACENAMIENTO_R_4
+(select count(1) from TIPO_ALMACENAMIENTO_R1) as TIPO_ALMACENAMIENTO_R1,
+(select count(1) from TIPO_ALMACENAMIENTO_R2) as TIPO_ALMACENAMIENTO_R2,
+(select count(1) from TIPO_ALMACENAMIENTO_R3) as TIPO_ALMACENAMIENTO_R3,
+(select count(1) from TIPO_ALMACENAMIENTO_R4) as TIPO_ALMACENAMIENTO_R4
 from dual;
 
 Prompt validando sinonimos para TIPO_MONITOR
 select
-(select count(1) from TIPO_MONITOR_R_1) as TIPO_MONITOR_R_1,
-(select count(1) from TIPO_MONITOR_R_2) as TIPO_MONITOR_R_2,
-(select count(1) from TIPO_MONITOR_R_3) as TIPO_MONITOR_R_3,
-(select count(1) from TIPO_MONITOR_R_4) as TIPO_MONITOR_R_4
+(select count(1) from TIPO_MONITOR_R1) as TIPO_MONITOR_R1,
+(select count(1) from TIPO_MONITOR_R2) as TIPO_MONITOR_R2,
+(select count(1) from TIPO_MONITOR_R3) as TIPO_MONITOR_R3,
+(select count(1) from TIPO_MONITOR_R4) as TIPO_MONITOR_R4
 from dual;
 
 Prompt validando sinonimos para TIPO_PROCESADOR
 select
-(select count(1) from TIPO_PROCESADOR_R_1) as TIPO_PROCESADOR_R_1,
-(select count(1) from TIPO_PROCESADOR_R_2) as TIPO_PROCESADOR_R_2,
-(select count(1) from TIPO_PROCESADOR_R_3) as TIPO_PROCESADOR_R_3,
-(select count(1) from TIPO_PROCESADOR_R_4) as TIPO_PROCESADOR_R_4
+(select count(1) from TIPO_PROCESADOR_R1) as TIPO_PROCESADOR_R1,
+(select count(1) from TIPO_PROCESADOR_R2) as TIPO_PROCESADOR_R2,
+(select count(1) from TIPO_PROCESADOR_R3) as TIPO_PROCESADOR_R3,
+(select count(1) from TIPO_PROCESADOR_R4) as TIPO_PROCESADOR_R4
 from dual;
 
 Prompt validando sinonimos para TIPO_TARJETA_VIDEO
 select
-(select count(1) from TIPO_TARJETA_VIDEO_R_1) as TIPO_TARJETA_VIDEO_R_1,
-(select count(1) from TIPO_TARJETA_VIDEO_R_2) as TIPO_TARJETA_VIDEO_R_2,
-(select count(1) from TIPO_TARJETA_VIDEO_R_3) as TIPO_TARJETA_VIDEO_R_3,
-(select count(1) from TIPO_TARJETA_VIDEO_R_4) as TIPO_TARJETA_VIDEO_R_4
+(select count(1) from TIPO_TARJETA_VIDEO_R1) as TIPO_TARJETA_VIDEO_R1,
+(select count(1) from TIPO_TARJETA_VIDEO_R2) as TIPO_TARJETA_VIDEO_R2,
+(select count(1) from TIPO_TARJETA_VIDEO_R3) as TIPO_TARJETA_VIDEO_R3,
+(select count(1) from TIPO_TARJETA_VIDEO_R4) as TIPO_TARJETA_VIDEO_R4
 from dual;

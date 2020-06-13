@@ -42,25 +42,25 @@ create or replace synonym SUCURSAL_VENTA_F3 for SUCURSAL_VENTA_F3_MMG_S1;
 create or replace synonym SUCURSAL_VENTA_F4 for SUCURSAL_VENTA_F4_MMG_S2@mamgbd_s2;
 
 -- TIPO_ALMACENAMIENTO
-create or replace synonym TIPO_ALMACENAMIENTO_R_1 for TIPO_ALMACENAMIENTO_R_MMG_S1;
-create or replace synonym TIPO_ALMACENAMIENTO_R_2 for TIPO_ALMACENAMIENTO_R_CAH_S1@cahabdd_s1;
-create or replace synonym TIPO_ALMACENAMIENTO_R_3 for TIPO_ALMACENAMIENTO_R_CAH_S2@cahabdd_s2;
-create or replace synonym TIPO_ALMACENAMIENTO_R_4 for TIPO_ALMACENAMIENTO_R_MMG_S2@mamgbd_s2;
+create or replace synonym TIPO_ALMACENAMIENTO_R1 for TIPO_ALMACENAMIENTO_R_MMG_S1;
+create or replace synonym TIPO_ALMACENAMIENTO_R2 for TIPO_ALMACENAMIENTO_R_CAH_S1@cahabdd_s1;
+create or replace synonym TIPO_ALMACENAMIENTO_R3 for TIPO_ALMACENAMIENTO_R_CAH_S2@cahabdd_s2;
+create or replace synonym TIPO_ALMACENAMIENTO_R4 for TIPO_ALMACENAMIENTO_R_MMG_S2@mamgbd_s2;
 
 -- TIPO_MONITOR
-create or replace synonym TIPO_MONITOR_R_1 for TIPO_MONITOR_R_MMG_S1;
-create or replace synonym TIPO_MONITOR_R_2 for TIPO_MONITOR_R_CAH_S1@cahabdd_s1;
-create or replace synonym TIPO_MONITOR_R_3 for TIPO_MONITOR_R_CAH_S2@cahabdd_s2;
-create or replace synonym TIPO_MONITOR_R_4 for TIPO_MONITOR_R_MMG_S2@mamgbd_s2;
+create or replace synonym TIPO_MONITOR_R1 for TIPO_MONITOR_R_MMG_S1;
+create or replace synonym TIPO_MONITOR_R2 for TIPO_MONITOR_R_CAH_S1@cahabdd_s1;
+create or replace synonym TIPO_MONITOR_R3 for TIPO_MONITOR_R_CAH_S2@cahabdd_s2;
+create or replace synonym TIPO_MONITOR_R4 for TIPO_MONITOR_R_MMG_S2@mamgbd_s2;
 
 -- TIPO_PROCESADOR
-create or replace synonym TIPO_PROCESADOR_R_1 for TIPO_PROCESADOR_R_MMG_S1;
-create or replace synonym TIPO_PROCESADOR_R_2 for TIPO_PROCESADOR_R_CAH_S1@cahabdd_s1;
-create or replace synonym TIPO_PROCESADOR_R_3 for TIPO_PROCESADOR_R_CAH_S2@cahabdd_s2;
-create or replace synonym TIPO_PROCESADOR_R_4 for TIPO_PROCESADOR_R_MMG_S2@mamgbd_s2;
+create or replace synonym TIPO_PROCESADOR_R1 for TIPO_PROCESADOR_R_MMG_S1;
+create or replace synonym TIPO_PROCESADOR_R2 for TIPO_PROCESADOR_R_CAH_S1@cahabdd_s1;
+create or replace synonym TIPO_PROCESADOR_R3 for TIPO_PROCESADOR_R_CAH_S2@cahabdd_s2;
+create or replace synonym TIPO_PROCESADOR_R4 for TIPO_PROCESADOR_R_MMG_S2@mamgbd_s2;
 
 -- TIPO_TARJETA_VIDEO
-create or replace synonym TIPO_TARJETA_VIDEO_R_1 for TIPO_TARJETA_VIDEO_R_MMG_S1;
-create or replace synonym TIPO_TARJETA_VIDEO_R_2 for TIPO_TARJETA_VIDEO_R_CAH_S1@cahabdd_s1;
-create or replace synonym TIPO_TARJETA_VIDEO_R_3 for TIPO_TARJETA_VIDEO_R_CAH_S2@cahabdd_s2;
-create or replace synonym TIPO_TARJETA_VIDEO_R_4 for TIPO_TARJETA_VIDEO_R_MMG_S2@mamgbd_s2;
+create or replace synonym TIPO_TARJETA_VIDEO_R1 for TIPO_TARJETA_VIDEO_R_MMG_S1;
+create or replace synonym TIPO_TARJETA_VIDEO_R2 for TIPO_TARJETA_VIDEO_R_CAH_S1@cahabdd_s1;
+create or replace synonym TIPO_TARJETA_VIDEO_R3 for TIPO_TARJETA_VIDEO_R_CAH_S2@cahabdd_s2;
+create or replace synonym TIPO_TARJETA_VIDEO_R4 for TIPO_TARJETA_VIDEO_R_MMG_S2@mamgbd_s2;
