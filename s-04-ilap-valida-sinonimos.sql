@@ -86,7 +86,3 @@ select
 (select count(1) from TIPO_TARJETA_VIDEO_R_3) as TIPO_TARJETA_VIDEO_R_3,
 (select count(1) from TIPO_TARJETA_VIDEO_R_4) as TIPO_TARJETA_VIDEO_R_4
 from dual;
-
-
-Prompt Listo!
-exit

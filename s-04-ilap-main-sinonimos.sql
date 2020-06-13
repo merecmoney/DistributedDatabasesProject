@@ -16,9 +16,9 @@ prompt =====================================
 @s-04-ilap-cah-s2-sinonimos.sql
 @s-04-ilap-valida-sinonimos.sql
 
-connect ilap_bdd/ilap_bdd@mamgbd_s2
+connect ilap_bdd/ilap_bdd@mamgbd_s1
 prompt =====================================
-prompt Creando sinónimos para mamgbd_s2
+prompt Creando sinónimos para mamgbd_s1
 prompt =====================================
 @s-04-ilap-mmg-s1-sinonimos.sql
 @s-04-ilap-valida-sinonimos.sql
