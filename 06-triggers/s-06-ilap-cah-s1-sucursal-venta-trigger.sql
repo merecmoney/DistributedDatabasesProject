@@ -3,7 +3,7 @@
 --@Descripción: Definición del trigger para operaciones DML para SUCURSAL_VENTA
 -- en CAHABDD_S1
 
-create or replace trigger t_dml_sucursal_venta
+create or replace trigger t_dml_sucursal_venta_cah_s1
 instead of insert or update or delete on SUCURSAL_VENTA
 declare
   v_count number;
@@ -67,7 +67,7 @@ begin
           into v_count
           from SUCURSAL_F2
           where sucursal_id = :old.sucursal_id;
-          -- Delete remoto en CAHABDD_S2 
+          -- Delete remoto en CAHABDD_S2
           if v_count > 0 then
             delete from SUCURSAL_VENTA_F2
             where sucursal_id = :old.sucursal_id;

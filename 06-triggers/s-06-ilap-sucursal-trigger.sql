@@ -4,7 +4,7 @@
 -- soporta las operaciones DML INSERT, UPDATE, DELETE
 
 create or replace trigger t_dml_sucursal
-instead of insert or update or delete on sucursal
+instead of insert or update or delete on SUCURSAL
 declare
     v_clave char(2);
 begin

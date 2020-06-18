@@ -3,7 +3,7 @@
 --@Descripción: Definición del trigger para operaciones DML para SUCURSAL_VENTA
 -- en MAMGBD_S2
 
-create or replace trigger t_dml_sucursal_venta
+create or replace trigger t_dml_sucursal_venta_mmg_s2
 instead of insert or update or delete on SUCURSAL_VENTA
 declare
   v_count number;
