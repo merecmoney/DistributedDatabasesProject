@@ -45,8 +45,8 @@ begin
         end if;
 
         -- Inserta localmente (MAMGBD_S2) el BLOB
-		  	insert into LAPTOP_F1(laptop_id,foto)
-		  	values(:new.laptop_id,:new.foto);
+        insert into LAPTOP_F1(laptop_id,foto)
+        values(:new.laptop_id,:new.foto);
 
       when updating then
         raise_application_error(-20030, 'Las operaciones UPDATE no tienen soporte aun.');
@@ -75,8 +75,9 @@ begin
         end if;
 
         -- Elimina localmente (MAMGBD_S2) el BLOB
-		  	delete from LAPTOP_F1 where laptop_id = :old.laptop_id;
+        delete from LAPTOP_F1 where laptop_id = :old.laptop_id;
 
     end case;
 end;
 /
+show errors

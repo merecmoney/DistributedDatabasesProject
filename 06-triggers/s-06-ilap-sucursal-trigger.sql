@@ -111,3 +111,4 @@ begin
             raise_application_error(-20030, 'Las operaciones UPDATE no tienen soporte aun.');
 end;
 /
+show errors
