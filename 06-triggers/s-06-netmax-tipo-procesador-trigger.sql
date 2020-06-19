@@ -55,19 +55,19 @@ begin
         when updating then
             --replica local
             v_count := 0;
-            update TIPO_PROCESADOR_R1 set clave = :new.clave,descripcion =:new.descripcion,
+            update TIPO_PROCESADOR_R1 set clave = :new.clave,descripcion =:new.descripcion
             where tipo_procesador_id = :new.tipo_procesador_id;
             v_count := v_count + sql%rowcount;
             --replica 2
-            update TIPO_PROCESADOR_R2 set clave = :new.clave,descripcion =:new.descripcion,
+            update TIPO_PROCESADOR_R2 set clave = :new.clave,descripcion =:new.descripcion
             where tipo_procesador_id = :new.tipo_procesador_id;
             v_count := v_count + sql%rowcount;
             --replica 3
-            update TIPO_PROCESADOR_R3 set clave = :new.clave,descripcion =:new.descripcion,
+            update TIPO_PROCESADOR_R3 set clave = :new.clave,descripcion =:new.descripcion
             where tipo_procesador_id = :new.tipo_procesador_id;
             v_count := v_count + sql%rowcount;
             --replica 4
-            update TIPO_PROCESADOR_R4 set clave = :new.clave,descripcion =:new.descripcion,
+            update TIPO_PROCESADOR_R4 set clave = :new.clave,descripcion =:new.descripcion
             where tipo_procesador_id = :new.tipo_procesador_id;
             v_count := v_count + sql%rowcount;
 

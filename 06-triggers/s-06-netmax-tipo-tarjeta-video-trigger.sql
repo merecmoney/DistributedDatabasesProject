@@ -55,19 +55,19 @@ begin
         when updating then
             --replica local
             v_count := 0;
-            update TIPO_TARJETA_VIDEO_R1 set clave = :new.clave,descripcion =:new.descripcion,
+            update TIPO_TARJETA_VIDEO_R1 set clave = :new.clave,descripcion =:new.descripcion
             where tipo_tarjeta_video_id = :new.tipo_tarjeta_video_id;
             v_count := v_count + sql%rowcount;
             --replica 2
-            update TIPO_TARJETA_VIDEO_R2 set clave = :new.clave,descripcion =:new.descripcion,
+            update TIPO_TARJETA_VIDEO_R2 set clave = :new.clave,descripcion =:new.descripcion
             where tipo_tarjeta_video_id = :new.tipo_tarjeta_video_id;
             v_count := v_count + sql%rowcount;
             --replica 3
-            update TIPO_TARJETA_VIDEO_R3 set clave = :new.clave,descripcion =:new.descripcion,
+            update TIPO_TARJETA_VIDEO_R3 set clave = :new.clave,descripcion =:new.descripcion
             where tipo_tarjeta_video_id = :new.tipo_tarjeta_video_id;
             v_count := v_count + sql%rowcount;
             --replica 4
-            update TIPO_TARJETA_VIDEO_R4 set clave = :new.clave,descripcion =:new.descripcion,
+            update TIPO_TARJETA_VIDEO_R4 set clave = :new.clave,descripcion =:new.descripcion
             where tipo_tarjeta_video_id = :new.tipo_tarjeta_video_id;
             v_count := v_count + sql%rowcount;
 
