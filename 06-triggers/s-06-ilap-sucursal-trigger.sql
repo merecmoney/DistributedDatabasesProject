@@ -14,7 +14,7 @@ begin
             v_clave := substr(:new.clave,3,2);
             -- Inserción en CAHABDD_S1
             if (:new.es_taller = 1 and :new.es_venta = 1) or v_clave = 'NO' then
-                
+
                 insert into SUCURSAL_F1 (sucursal_id, clave, es_taller,
                     es_venta, nombre, latitud, longitud, url)
                 values (:new.sucursal_id, :new.clave, :new.es_taller,
@@ -71,23 +71,23 @@ begin
             v_clave := substr(:old.clave,3,2);
             -- Delete en CAHABDD_S1
             if (:old.es_taller = 1 and :old.es_venta = 1) or v_clave = 'NO' then
-                delete SUCURSAL_F1 from 
+                delete from SUCURSAL_F1
                 where sucursal_id = :old.sucursal_id;
             -- Delete en CAHABDD_S2
             elsif (:old.es_taller = 0 or :old.es_venta = 0)
                 and v_clave = 'EA' then
-                delete SUCURSAL_F2 from 
-                where sucursal_id = :old.sucursal_id;
+                    delete from SUCURSAL_F2
+                    where sucursal_id = :old.sucursal_id;
             -- Delete en MAMGBD_S1
             elsif (:old.es_taller = 0 or :old.es_venta = 0)
                 and v_clave = 'WS' then
-                delete SUCURSAL_F3 from 
-                where sucursal_id = :old.sucursal_id;
-            elsif (:old.es_taller = 0 or :old.es_venta = 0)
+                    delete from SUCURSAL_F3
+                    where sucursal_id = :old.sucursal_id;
             -- Delete en MAMGBD_S2
+            elsif (:old.es_taller = 0 or :old.es_venta = 0)
                 and v_clave = 'SO' then
-                delete SUCURSAL_F4 from 
-                where sucursal_id = :old.sucursal_id;
+                    delete from SUCURSAL_F4
+                    where sucursal_id = :old.sucursal_id;
             else
                 if :old.es_taller > 1 or :old.es_taller < 0 then
                     raise_application_error(-20010,
@@ -99,7 +99,7 @@ begin
                     'Valor incorrecto para el campo es_venta'
                     || :old.es_venta
                     || '. Debe tener un valor de 0 o 1');
-                else                  
+                else
                     raise_application_error(-20010,
                     'Valor incorrecto para el campo clave: '
                     || :old.clave
@@ -109,6 +109,7 @@ begin
             end if;
         when updating then
             raise_application_error(-20030, 'Las operaciones UPDATE no tienen soporte aun.');
+    end case;
 end;
 /
 show errors
