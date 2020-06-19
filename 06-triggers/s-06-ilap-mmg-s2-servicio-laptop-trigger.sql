@@ -36,7 +36,7 @@ begin
                     :new.diagnostico, :new.factura, :new.sucursal_id);
 
                     insert into SERVICIO_LAPTOP_F4
-                    select from *
+                    select *
                     from TI_SERVICIO_LAPTOP_F4
                     where num_servicio = :new.num_servicio
                     and laptop_id = :new.laptop_id;
@@ -58,7 +58,7 @@ begin
                         :new.diagnostico, :new.factura, :new.sucursal_id);
 
                         insert into SERVICIO_LAPTOP_F3
-                        select from *
+                        select *
                         from TI_SERVICIO_LAPTOP_F3
                         where num_servicio = :new.num_servicio
                         and laptop_id = :new.laptop_id;
@@ -80,7 +80,7 @@ begin
                             :new.diagnostico, :new.factura, :new.sucursal_id);
 
                             insert into SERVICIO_LAPTOP_F1
-                            select from *
+                            select *
                             from TI_SERVICIO_LAPTOP_F1
                             where num_servicio = :new.num_servicio
                             and laptop_id = :new.laptop_id;
