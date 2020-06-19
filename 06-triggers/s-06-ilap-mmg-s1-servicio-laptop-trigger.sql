@@ -4,7 +4,7 @@
 -- en MAMGBD_S1
 
 create or replace trigger servicio_laptop_mmg_s1
-instead of insert or update or delete SERVICIO_LAPTOP
+instead of insert or update or delete on SERVICIO_LAPTOP
 declare
     v_count number;
 begin

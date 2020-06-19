@@ -4,7 +4,7 @@
 -- en CAHABDD_S2
 
 create or replace trigger servicio_laptop_cah_s2
-instead of insert or update or delete SERVICIO_LAPTOP
+instead of insert or update or delete on SERVICIO_LAPTOP
 declare
     v_count number;
 begin
@@ -71,7 +71,7 @@ begin
                         into v_count
                         from LAPTOP_F2
                         where laptop_id = :new.laptop_id;
-            
+
                         -- Inserción remota en CAHABDD_S1
                         if v_count > 0 then
                             insert into TI_SERVICIO_LAPTOP_F1(num_servicio, laptop_id,
