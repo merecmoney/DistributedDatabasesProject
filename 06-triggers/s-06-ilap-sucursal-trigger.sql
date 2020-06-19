@@ -10,6 +10,19 @@ declare
 begin
     case
         when inserting then
+
+            if :new.es_taller > 1 or :new.es_taller < 0 then
+                raise_application_error(-20010,
+                'Valor incorrecto para el campo es_taller'
+                || :new.es_taller
+                || '. Debe tener un valor de 0 o 1');
+            elsif :new.es_venta > 1 or :new.es_venta < 0 then
+                raise_application_error(-20010,
+                'Valor incorrecto para el campo es_venta'
+                || :new.es_venta
+                || '. Debe tener un valor de 0 o 1');
+            end if;
+
             -- ver la clave del nuevo registro
             v_clave := substr(:new.clave,3,2);
             -- Inserción en CAHABDD_S1
@@ -48,23 +61,11 @@ begin
                     :new.es_venta, :new.nombre, :new.latitud,
                     :new.longitud, :new.url);
             else
-                if :new.es_taller > 1 or :new.es_taller < 0 then
-                    raise_application_error(-20010,
-                    'Valor incorrecto para el campo es_taller'
-                    || :new.es_taller
-                    || '. Debe tener un valor de 0 o 1');
-                elsif :new.es_venta > 1 or :new.es_venta < 0 then
-                    raise_application_error(-20010,
-                    'Valor incorrecto para el campo es_venta'
-                    || :new.es_venta
-                    || '. Debe tener un valor de 0 o 1');
-                else
-                    raise_application_error(-20010,
-                    'Valor incorrecto para el campo clave: '
-                    || :new.clave
-                    || 'Los últimos dos carácteres de la cadena deben ser'
-                    || ' NO, EA, WS o SO');
-                end if;
+                raise_application_error(-20010,
+                'Valor incorrecto para el campo clave: '
+                || :new.clave
+                || 'No esta en ninguna de las zonas geográficas con las'
+                || ' siguientes claves: NO, EA, WS o SO');
             end if;
         when deleting then
             -- ver la clave del registro a borrar
