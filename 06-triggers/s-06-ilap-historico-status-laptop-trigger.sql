@@ -36,6 +36,7 @@ begin
             end if;
         when updating then
             raise_application_error(-20030, 'Las operaciones UPDATE no tienen soporte aun.');
+        end case;
 end;
 /
 show errors
