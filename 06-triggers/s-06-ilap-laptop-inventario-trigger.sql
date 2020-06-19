@@ -4,11 +4,11 @@
 -- LAPTOP_INVENTARIO
 
 create or replace trigger t_dml_laptop_inventario
-instead of insert or update or delete on SUCURSAL_VENTA
+instead of insert or update or delete on LAPTOP_INVENTARIO
 declare
 begin
-    case 
-        when inserting then 
+    case
+        when inserting then
             insert into LAPTOP_INVENTARIO_F1 (laptop_id, rfc_cliente, num_tarjeta)
             values (:new.laptop_id, :new.rfc_cliente, :new.num_tarjeta);
 
@@ -23,7 +23,7 @@ begin
 
             delete from LAPTOP_INVENTARIO_F2
             where laptop_id = :old.laptop_id;
-        
+
         when updating then
             raise_application_error(-20030, 'Las operaciones UPDATE no tienen soporte aun.');
     end case;
