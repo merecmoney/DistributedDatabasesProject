@@ -1,0 +1,14 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+*.gitattributes text
+.gitignore      text
+*.md            text
+
+*.sql           text
+*.sh            text
+*.png           binary
+*.jpg           binary
+*.DM1           binary
+*.plb           binary
+*.zip           binary
