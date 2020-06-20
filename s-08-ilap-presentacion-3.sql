@@ -34,8 +34,6 @@ Prompt Eliminando datos de historico_status_laptop
 delete from HISTORICO_STATUS_LAPTOP;
 Prompt Eliminando datos de laptop_inventario
 delete from LAPTOP_INVENTARIO;
-Prompt Eliminando datos de status_laptop
-delete from STATUS_LAPTOP;
 Prompt Eliminando datos de servicio_laptop
 delete from SERVICIO_LAPTOP;
 Prompt Eliminando datos de laptop
