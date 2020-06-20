@@ -5,28 +5,30 @@
 clear screen
 whenever sqlerror exit rollback;
 
-prompt =====================================
-prompt Creando fragmentos para cahabdd_s1
-prompt =====================================
+set serveroutput on
+prompt =================================================
+prompt Ejecutando validador presentacion 4 en cahabdd_s1
+prompt =================================================
 connect ilap_bdd/ilap_bdd@cahabdd_s1
 @s-08-ilap-presentacion-4.plb
 
-prompt =====================================
-prompt Creando fragmentos para cahabdd_s2
-prompt =====================================
+prompt =================================================
+prompt Ejecutando validador presentacion 4 en cahabdd_s2
+prompt =================================================
 connect ilap_bdd/ilap_bdd@cahabdd_s2
 @s-08-ilap-presentacion-4.plb
 
-prompt =====================================
-prompt Creando fragmentos para mamgbd_s1
-prompt =====================================
+prompt =================================================
+prompt Ejecutando validador presentacion 4 en mamgbd_s1
+prompt =================================================
 connect ilap_bdd/ilap_bdd@mamgbd_s1
 @s-08-ilap-presentacion-4.plb
 
-prompt =====================================
-prompt Creando fragmentos para mamgbd_s2
-prompt =====================================
+prompt =================================================
+prompt Ejecutando validador presentacion 4 en mamgbd_s2
+prompt =================================================
 connect ilap_bdd/ilap_bdd@mamgbd_s2
 @s-08-ilap-presentacion-4.plb
 
 Prompt Listo!
+exit
