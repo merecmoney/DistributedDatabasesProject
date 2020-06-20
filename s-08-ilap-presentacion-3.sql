@@ -32,16 +32,27 @@ set feedback off
 
 Prompt Eliminando datos de historico_status_laptop
 delete from HISTORICO_STATUS_LAPTOP;
+Prompt Eliminando datos de laptop_inventario
 delete from LAPTOP_INVENTARIO;
+Prompt Eliminando datos de status_laptop
 delete from STATUS_LAPTOP;
+Prompt Eliminando datos de servicio_laptop
 delete from SERVICIO_LAPTOP;
+Prompt Eliminando datos de laptop
 delete from LAPTOP;
+Prompt Eliminando datos de sucursal_venta
 delete from SUCURSAL_VENTA;
+Prompt Eliminando datos de sucursal_taller
 delete from SUCURSAL_TALLER;
+Prompt Eliminando datos de sucursal
 delete from SUCURSAL;
+Prompt Eliminando datos de tipo_procesador
 delete from TIPO_PROCESADOR;
+Prompt Eliminando datos de tipo_tarjeta_video
 delete from TIPO_TARJETA_VIDEO;
+Prompt Eliminando datos de tipo_almacenamiento
 delete from TIPO_ALMACENAMIENTO;
+Prompt Eliminando datos de tipo_monitor
 delete from TIPO_MONITOR;
 
 Prompt => Realizando Carga de datos ....
