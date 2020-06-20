@@ -47,4 +47,3 @@ create database link cahabdd_s1.fi.unam using 'CAHABDD_S1';
 Create database link cahabdd_s2.fi.unam using 'CAHABDD_S2';
 
 Prompt Listo!
-exit

@@ -70,4 +70,3 @@ connect ilap_bdd/ilap_bdd@mamgbd_s2
 @s-06-netmax-tipo-tarjeta-video-trigger.sql
 
 Prompt Listo!
-exit

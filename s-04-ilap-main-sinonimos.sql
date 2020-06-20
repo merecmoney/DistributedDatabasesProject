@@ -31,4 +31,3 @@ prompt =====================================
 @s-04-ilap-valida-sinonimos.sql
 
 Prompt Listo!
-exit

@@ -67,4 +67,3 @@ prompt creando vistas con soporte para BLOBs
 
 --completar
 prompt Listo!
-exit

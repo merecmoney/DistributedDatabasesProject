@@ -26,11 +26,10 @@ prompt =====================================
 connect sys/&&syspass@mamgbd_s1 as sysdba
 @s-01-ilap-usuario.sql
 prompt =====================================
-prompt Creando usuario en mamgbd_s1
+prompt Creando usuario en mamgbd_s2
 prompt =====================================
 
 connect sys/&&syspass@mamgbd_s2 as sysdba
 @s-01-ilap-usuario.sql
 
 Prompt Listo!
-exit
