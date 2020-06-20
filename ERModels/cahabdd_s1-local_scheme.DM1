@@ -31,7 +31,7 @@ VersionId,Version_ID,Copyright,Global_User_ID,Row_Time_Stamp
 
 Diagram
 DiagramId,Version_ID,VersionId,LastUpdate,CreateDate,ActiveModel,ActiveSubmodel,VSplitterPosition,X,Y,Width,Height,DiagramNameId,AuthorId,CompanyId,VersionNoId,CopyrightStringId,DefinitionId,UnificationOptionId,FileNameId,CopyrightYearStringId,DiagramName,CodePage,SignatureGUID,ReleaseName,Flags,Global_User_ID,Row_Time_Stamp
-1,1,800,06/05/2020 21:14:25G,06/02/2020 22:38:41G,1,1,180,0,0,0,0,76,77,78,79,78,0,80,76,0,cahabdd_s1-local_scheme.DM1,1252,NULL,NULL,0,1,0
+1,1,800,06/19/2020 20:35:38G,06/02/2020 22:38:41G,1,1,180,0,0,0,0,76,77,78,79,78,0,80,76,0,cahabdd_s1-local_scheme.DM1,1252,NULL,NULL,0,1,0
 
 Model
 DiagramId,ModelId,Model_ID,ModelType,PlatformId,NamePrefix,SpaceHandling,CaseHandling,GenPrimaryKey,GenAlternateKey,GenInversionEntry,GenForeignKey,Notation,ModelNameId,RowOverhead,TableOverhead,IndexOverhead,BlobOverhead,BlobBlockSize,Global_User_ID,Row_Time_Stamp
@@ -66,7 +66,7 @@ SubmodelLink_ID,Model_ID,Parent_ID,Child_ID,UltimateParent_ID,NodeLevel,IsBottom
 
 DiagramDisplay
 DiagramId,ModelId,SubmodelId,DiagramDisplay_ID,Submodel_ID,PlatformId,Animate,ZoomFactor,HviewSize,VviewSize,HorizontalScrollPosition,VerticalScrollPosition,PageOrientation,PageSize,DisplayFormat,EntityDisplayInfo,ViewDisplayFormat,ViewDisplayInfo,Shadow,CompleteRoleName,ShowVerbs,ShowCardinality,MethodologyId,StraightRelLine,PageBoundary,ShowViewRelationship,ShowView,HideTrigger,Global_User_ID,Row_Time_Stamp,ShowSchemaObjEdge,ShowSchemaObj,SchemaObjDisplayFormat,ShowRelationshipName,ShowLogicalRelationshipName,ShowTriggerLabel,ShowShape,ShowShapeEdge,ShowShapeName,ShowShapeEdgeName,ShowShapeEdgeVerbs,TransformationDisplayFormat
-1,1,1,1,1,0,0,7499,0,0,-187,-27,1,1,8,3269,1,0,1,0,1,1,0,0,0,0,0,1,23,0,1,6,7,0,0,0,0,0,1,0,1,10
+1,1,1,1,1,0,0,7499,0,0,-186,-190,1,1,8,3269,1,0,1,0,1,1,0,0,0,0,0,1,23,0,1,6,7,0,0,0,0,0,1,0,1,10
 
 GridDisplay
 DiagramId,ModelId,SubmodelId,GridDisplay_ID,Submodel_ID,Show,Snap,HorizontalSpacing,VerticalSpacing,HorizontalGridsPerLine,VericalGridsPerLine,Units,Global_User_ID,Row_Time_Stamp
@@ -333,7 +333,7 @@ DiagramId,ModelId,EntityId,AttributeId,Attribute_ID,Entity_ID,UserDatatypeId,Rul
 1,1,12,6,17,12,0,0,0,0,43,43,0,0,43,43,26,0,5,0,N,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,184,0
 1,1,4,6,32,4,0,0,0,0,33,33,0,0,33,33,26,0,10,0,N,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,199,0
 1,1,4,7,58,4,0,0,0,0,45,45,0,0,0,0,26,0,10,0,N,0,0,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,327,0
-1,1,12,9,57,12,0,0,0,0,45,45,0,0,0,0,26,0,10,0,N,0,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,326,0
+1,1,12,9,57,12,0,0,0,0,45,45,0,0,0,0,26,1,10,0,N,0,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,326,0
 1,1,12,10,59,12,0,0,0,0,33,33,0,0,0,0,26,0,10,0,N,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,328,0
 1,1,11,1,36,11,0,0,0,0,31,31,0,0,0,0,26,0,5,0,N,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,203,0
 1,1,9,1,39,9,0,0,0,0,25,25,0,0,0,0,26,0,5,0,N,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,206,0
@@ -364,7 +364,7 @@ DiagramId,ModelId,EntityId,AttributeId,Attribute_ID,Entity_ID,UserDatatypeId,Rul
 1,1,5,11,2,5,0,0,0,0,25,25,0,0,25,25,26,0,5,0,N,0,0,7,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,169,0
 1,1,5,12,4,5,0,0,0,0,29,29,0,0,29,29,26,0,5,0,N,0,0,8,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,171,0
 1,1,5,13,6,5,0,0,0,0,31,31,0,0,31,31,26,0,5,0,N,0,0,9,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,173,0
-1,1,5,15,56,5,0,0,0,0,87,87,0,0,0,0,26,0,10,0,N,1,1,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,325,0
+1,1,5,15,56,5,0,0,0,0,87,87,0,0,0,0,26,1,10,0,N,1,1,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,325,0
 
 PrimaryKey
 DiagramId,ModelId,EntityId,AttributeId,PrimaryKey_ID,Attribute_ID,SequenceNo,Global_User_ID,Row_Time_Stamp
@@ -578,7 +578,7 @@ DiagramId,ModelId,SubmodelId,ObjectId,GraphicObject_ID,Submodel_ID,GraphicsType,
 1,1,1,15,15,1,2,949,-352,1046,-334,28312C3129,0,0,0,0,304,0
 1,1,1,16,16,1,2,939,-489,1036,-471,28312C3129,0,0,0,0,305,0
 1,1,1,17,17,1,2,784,-31,881,-13,28312C3129,0,0,0,0,306,0
-1,1,1,20,20,1,2,379,-279,476,-261,28312C3129,0,0,0,0,309,0
+1,1,1,20,20,1,2,379,-278,476,-261,28312C3129,0,0,0,0,309,0
 1,1,1,21,21,1,2,322,-473,419,-455,28312C3129,0,0,0,0,310,0
 1,1,1,22,22,1,2,180,-572,277,-554,28312C3129,0,0,0,0,311,0
 1,1,1,24,24,1,2,319,-26,416,-8,28302C3129,0,0,0,0,313,0
@@ -1169,7 +1169,7 @@ Identity_Value_ID,Table_Name,Column_Name,Next_Valid_Value,Global_User_ID,Row_Tim
 14,Bound_Dictionary_Object,Bound_Dictionary_Object_ID,1,0,0
 15,CheckConstraints,CheckConstraints_ID,1,0,0
 16,Circular_Layout,Circular_Layout_ID,2,0,0
-17,ColorDefault,ColorDefault_ID,100,0,0
+17,ColorDefault,ColorDefault_ID,101,0,0
 18,Column_Usage,Column_Usage_ID,1,0,0
 19,Components_Layout,Components_Layout_ID,2,0,0
 20,Configuration_Option,Configuration_Option_ID,1,0,0
@@ -1253,10 +1253,10 @@ Identity_Value_ID,Table_Name,Column_Name,Next_Valid_Value,Global_User_ID,Row_Tim
 98,Project_Link,Project_Link_ID,1,0,0
 99,Project_Member,Project_Member_ID,1,0,0
 100,Project_Property,Project_Property_ID,1,0,0
-101,Property,Property_ID,266,0,0
+101,Property,Property_ID,267,0,0
 102,Property_Type,Property_Type_ID,12,0,0
 103,Property_Usage,Property_Usage_ID,1,0,0
-104,Property_Value,Property_Value_ID,301,0,0
+104,Property_Value,Property_Value_ID,303,0,0
 105,Property_Value_Usage,Property_Value_Usage_ID,1,0,0
 106,Record_Set_Type,Record_Set_Type_ID,1,0,0
 107,Rejected_Record_File,Rejected_Record_File_ID,1,0,0
@@ -1295,8 +1295,8 @@ Identity_Value_ID,Table_Name,Column_Name,Next_Valid_Value,Global_User_ID,Row_Tim
 140,Valid_Attachment_Type,Valid_Attachment_Type_ID,5,0,0
 141,Valid_Group,Valid_Group_ID,1,0,0
 142,Valid_MetaClass,Valid_MetaClass_ID,13,0,0
-143,Valid_Property,Valid_Property_ID,315,0,0
-144,Valid_Property_Value,Valid_Property_Value_ID,375,0,0
+143,Valid_Property,Valid_Property_ID,316,0,0
+144,Valid_Property_Value,Valid_Property_Value_ID,377,0,0
 145,View_Column,View_Column_ID,1,0,0
 146,View_Component,View_Component_ID,1,0,0
 147,View_Display,View_Display_ID,1,0,0
@@ -1646,6 +1646,7 @@ Property_ID,Name,Description,IsSystemRequired,Global_User_ID,Row_Time_Stamp
 263,Sybase ID Limit,NULL,0,0,0
 264,Import New Source Settings,NULL,0,0,0
 265,CASESPECIFIC,NULL,0,0,0
+266,Oracle Table Row Movement,NULL,0,0,0
 
 Property_Type
 Property_Type_ID,Name,Description,IsSystemRequired,Global_User_ID,Row_Time_Stamp
@@ -1963,6 +1964,8 @@ Property_Value_ID,Name,Description,Value,IsSystemRequired,Global_User_ID,Row_Tim
 298,Sybase IQ Limit,NULL,Sybase IQ Limit,0,0,0
 299,Import New Source Settings,NULL,Import New Source Settings,0,0,0
 300,CASESPECIFIC,NULL,CASESPECIFIC,0,0,0
+301,Table Row Movement Yes,NULL,Table Row Movement Yes,0,0,0
+302,Table Row Movement No,NULL,Table Row Movement No,0,0,0
 
 Valid_MetaClass
 Valid_MetaClass_ID,MetaClass_ID,MetaTable_ID,Global_User_ID,Row_Time_Stamp
@@ -2295,6 +2298,7 @@ Valid_Property_ID,Property_Type_ID,Property_ID,Label,IsMandatory,Global_User_ID,
 312,2,263,NULL,0,0,0
 313,8,264,NULL,0,0,0
 314,6,265,NULL,0,0,0
+315,1,266,NULL,0,0,0
 
 Valid_Property_Value
 Valid_Property_Value_ID,Property_Value_ID,Valid_Property_ID,Label,IsDefault,Global_User_ID,Row_Time_Stamp
@@ -2672,6 +2676,8 @@ Valid_Property_Value_ID,Property_Value_ID,Valid_Property_ID,Label,IsDefault,Glob
 372,298,312,NULL,0,0,0
 373,299,313,NULL,0,0,0
 374,300,314,NULL,0,0,0
+375,301,315,NULL,0,0,0
+376,302,315,NULL,0,0,0
 
 MetaClass_Member
 MetaClass_Member_ID,Valid_MetaClass_ID,Name,Label,Table_Row_ID,SequenceNo,Global_User_ID,Row_Time_Stamp

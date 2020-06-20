@@ -31,7 +31,7 @@ VersionId,Version_ID,Copyright,Global_User_ID,Row_Time_Stamp
 
 Diagram
 DiagramId,Version_ID,VersionId,LastUpdate,CreateDate,ActiveModel,ActiveSubmodel,VSplitterPosition,X,Y,Width,Height,DiagramNameId,AuthorId,CompanyId,VersionNoId,CopyrightStringId,DefinitionId,UnificationOptionId,FileNameId,CopyrightYearStringId,DiagramName,CodePage,SignatureGUID,ReleaseName,Flags,Global_User_ID,Row_Time_Stamp
-1,1,800,06/05/2020 19:31:05G,06/02/2020 23:42:47G,1,1,180,0,0,0,0,76,77,78,79,78,0,80,76,0,cahabdd_s2-local_scheme.DM1,1252,NULL,NULL,0,1,0
+1,1,800,06/19/2020 20:36:15G,06/02/2020 23:42:47G,1,1,180,0,0,0,0,76,77,78,79,78,0,80,76,0,cahabdd_s2-local_scheme.DM1,1252,NULL,NULL,0,1,0
 
 Model
 DiagramId,ModelId,Model_ID,ModelType,PlatformId,NamePrefix,SpaceHandling,CaseHandling,GenPrimaryKey,GenAlternateKey,GenInversionEntry,GenForeignKey,Notation,ModelNameId,RowOverhead,TableOverhead,IndexOverhead,BlobOverhead,BlobBlockSize,Global_User_ID,Row_Time_Stamp
@@ -66,7 +66,7 @@ SubmodelLink_ID,Model_ID,Parent_ID,Child_ID,UltimateParent_ID,NodeLevel,IsBottom
 
 DiagramDisplay
 DiagramId,ModelId,SubmodelId,DiagramDisplay_ID,Submodel_ID,PlatformId,Animate,ZoomFactor,HviewSize,VviewSize,HorizontalScrollPosition,VerticalScrollPosition,PageOrientation,PageSize,DisplayFormat,EntityDisplayInfo,ViewDisplayFormat,ViewDisplayInfo,Shadow,CompleteRoleName,ShowVerbs,ShowCardinality,MethodologyId,StraightRelLine,PageBoundary,ShowViewRelationship,ShowView,HideTrigger,Global_User_ID,Row_Time_Stamp,ShowSchemaObjEdge,ShowSchemaObj,SchemaObjDisplayFormat,ShowRelationshipName,ShowLogicalRelationshipName,ShowTriggerLabel,ShowShape,ShowShapeEdge,ShowShapeName,ShowShapeEdgeName,ShowShapeEdgeVerbs,TransformationDisplayFormat
-1,1,1,1,1,0,0,10000,0,0,47,-69,1,1,8,3269,1,0,1,0,1,1,0,0,0,0,0,1,23,0,1,6,7,0,0,0,0,0,1,0,1,10
+1,1,1,1,1,0,0,10000,0,0,47,-519,1,1,8,3269,1,0,1,0,1,1,0,0,0,0,0,1,23,0,1,6,7,0,0,0,0,0,1,0,1,10
 
 GridDisplay
 DiagramId,ModelId,SubmodelId,GridDisplay_ID,Submodel_ID,Show,Snap,HorizontalSpacing,VerticalSpacing,HorizontalGridsPerLine,VericalGridsPerLine,Units,Global_User_ID,Row_Time_Stamp
@@ -337,7 +337,7 @@ DiagramId,ModelId,EntityId,AttributeId,Attribute_ID,Entity_ID,UserDatatypeId,Rul
 1,1,6,12,30,6,0,0,0,0,49,49,0,0,49,49,26,0,5,0,N,0,0,8,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,197,0
 1,1,10,3,12,10,0,0,0,0,33,33,0,0,0,0,30,0,400,-1,N,1,1,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,179,0
 1,1,6,13,32,6,0,0,0,0,31,31,0,0,31,31,26,0,5,0,N,0,0,9,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,199,0
-1,1,6,15,56,6,0,0,0,0,52,52,0,0,0,52,26,0,10,0,N,0,0,2,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,326,0
+1,1,6,15,56,6,0,0,0,0,52,52,0,0,0,52,26,1,10,0,N,0,0,2,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,326,0
 1,1,12,1,7,12,0,0,0,0,31,31,0,0,0,0,26,0,5,0,N,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,174,0
 1,1,12,2,8,12,0,0,0,0,32,32,0,0,0,0,30,0,40,-1,N,1,1,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0
 1,1,12,3,9,12,0,0,0,0,33,33,0,0,0,0,30,0,400,-1,N,1,1,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,176,0
@@ -498,13 +498,13 @@ Submodel_SchemaObj_Link_ID,Submodel_ID,MetaTable_ID,Table_Row_ID,cxNode,cyNode,x
 
 RelationshipDisplay
 DiagramId,ModelId,SubmodelId,RelationshipId,RelationshipDisplay_ID,ForeignKey_ID,Submodel_ID,ElbowPosition,DisplayVerbs,DisplayCardinality,PhysicalEntityId,VerbOffsetX,VerbOffsetY,InverseVerbOffsetX,InverseVerbOffsetY,DesiredRoutingStyle,ParentConnectorFlags,ParentConnectorOffsetX,ParentConnectorOffsetY,ParentConnectorPerMils,ChildConnectorFlags,ChildConnectorOffsetX,ChildConnectorOffsetY,ChildConnectorPerMils,cxName,cyName,cxLogicalName,cyLogicalName,cxVerbPhrase,cyVerbPhrase,cxInverseVerbPhrase,cyInverseVerbPhrase,NameOffsetX,NameOffsetY,LogicalNameOffsetX,LogicalNameOffsetY,NameOrientation,LogicalNameOrientation,VerbPhraseOrientation,InverseVerbPhraseOrientation,Global_User_ID,Row_Time_Stamp
-1,1,1,2,2,2,1,5000,N,N,0,0,0,0,0,3,0,-211,40,0,0,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,0
+1,1,1,2,2,2,1,5000,N,N,0,0,0,0,0,3,0,-190,40,0,0,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,0
 1,1,1,3,4,3,1,5000,N,N,0,0,0,0,0,3,0,0,-42,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,276,0
 1,1,1,8,14,8,1,5000,N,N,0,0,0,0,0,3,1,0,0,-65535668,0,-150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,281,0
 1,1,1,9,16,9,1,5000,N,N,0,0,0,0,0,3,1,0,0,-65470798,0,161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,282,0
-1,1,1,10,18,10,1,5000,N,N,0,0,0,0,0,3,0,-162,0,0,0,212,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,283,0
-1,1,1,11,20,11,1,5000,N,N,0,0,0,0,0,3,0,-167,0,0,0,212,-25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,284,0
-1,1,1,12,22,12,1,5000,N,N,0,0,0,0,0,3,0,-174,0,0,0,212,-86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,285,0
+1,1,1,10,18,10,1,5000,N,N,0,0,0,0,0,3,0,-162,0,0,0,191,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,283,0
+1,1,1,11,20,11,1,5000,N,N,0,0,0,0,0,3,0,-167,0,0,0,191,-25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,284,0
+1,1,1,12,22,12,1,5000,N,N,0,0,0,0,0,3,0,-174,0,0,0,191,-86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,285,0
 1,1,1,13,24,13,1,5000,N,N,0,0,0,0,0,3,0,-147,0,0,0,159,-93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,286,0
 
 Docking_Position
@@ -515,19 +515,23 @@ Dock_Pos_Disp_Level_ID,Docking_Position_ID,Display_Level,Parent_Side,Child_Side,
 
 Path_Node
 Path_Node_ID,RelationshipDisplay_ID,View_Relationship_Display_ID,SupertypeDisplay_ID,SchemaObj_Edge_ID,Shape_Edge_Display_ID,Lineage_Stream_Display_ID,X,Y,SequenceNo
-1,2,0,0,0,0,0,550,-415,1
-2,2,0,0,0,0,0,550,-420,2
+1,2,0,0,0,0,0,545,-415,1
+2,2,0,0,0,0,0,545,-420,2
 3,14,0,0,0,0,0,755,-230,1
 4,14,0,0,0,0,0,787,-230,2
 5,14,0,0,0,0,0,787,-245,3
 6,16,0,0,0,0,0,747,-240,1
-7,18,0,0,0,0,0,1154,-259,1
-8,18,0,0,0,0,0,1154,-412,2
-9,20,0,0,0,0,0,1181,-401,1
-10,20,0,0,0,0,0,1181,-480,2
-11,24,0,0,0,0,0,1067,-677,1
-12,0,0,2,0,0,0,749,-104,1
-13,0,0,2,0,0,0,751,-104,2
+7,18,0,0,0,0,0,1163,-259,1
+8,18,0,0,0,0,0,1163,-375,2
+9,18,0,0,0,0,0,1088,-375,3
+10,18,0,0,0,0,0,1088,-412,4
+11,20,0,0,0,0,0,1230,-401,1
+12,20,0,0,0,0,0,1230,-457,2
+13,20,0,0,0,0,0,1116,-457,3
+14,20,0,0,0,0,0,1116,-480,4
+15,24,0,0,0,0,0,1046,-677,1
+16,0,0,2,0,0,0,749,-104,1
+17,0,0,2,0,0,0,751,-104,2
 
 View_Relationship_Display
 View_Relationship_Display_ID,Entity_ID,Parent_View_ID,Submodel_ID,Child_View_ID,ElbowPosition,Inter_Model_View_Rel_Disp_ID,DesiredRoutingStyle,ParentConnectorFlags,ParentConnectorOffsetX,ParentConnectorOffsetY,ParentConnectorPerMils,ChildConnectorFlags,ChildConnectorOffsetX,ChildConnectorOffsetY,ChildConnectorPerMils,cxName,cyName,NameOffsetX,NameOffsetY,NameOrientation,Global_User_ID,Row_Time_Stamp
@@ -659,14 +663,14 @@ String_Id,Data,Row_Time_Stamp
 StringUsage
 StringUsage_Id,UniqueObject_Id,StringUsageType_Id,String_Id,Row_Time_Stamp
 245,326,95,52,0
-246,327,15,27,0
 1,2,99,75,0
-247,327,14,27,0
+246,327,15,27,0
 2,2,100,2,0
-248,328,14,25,0
+247,327,14,27,0
 3,3,37,3,0
-249,328,15,25,0
+248,328,14,25,0
 4,22,38,4,0
+249,328,15,25,0
 5,111,112,5,0
 6,111,113,5,0
 9,119,1,81,0
@@ -1130,7 +1134,7 @@ Identity_Value_ID,Table_Name,Column_Name,Next_Valid_Value,Global_User_ID,Row_Tim
 14,Bound_Dictionary_Object,Bound_Dictionary_Object_ID,1,0,0
 15,CheckConstraints,CheckConstraints_ID,1,0,0
 16,Circular_Layout,Circular_Layout_ID,2,0,0
-17,ColorDefault,ColorDefault_ID,81,0,0
+17,ColorDefault,ColorDefault_ID,82,0,0
 18,Column_Usage,Column_Usage_ID,1,0,0
 19,Components_Layout,Components_Layout_ID,2,0,0
 20,Configuration_Option,Configuration_Option_ID,1,0,0
@@ -1204,7 +1208,7 @@ Identity_Value_ID,Table_Name,Column_Name,Next_Valid_Value,Global_User_ID,Row_Tim
 88,ObjectModification,ObjectModification_ID,1,0,0
 89,Orthogonal_Layout,Orthogonal_Layout_ID,2,0,0
 90,PasteInfo,PasteInfo_ID,1,0,0
-91,Path_Node,Path_Node_ID,14,0,0
+91,Path_Node,Path_Node_ID,18,0,0
 92,Pipeline,Pipeline_ID,1,0,0
 93,Pipeline_Member,Pipeline_Member_ID,1,0,0
 94,Pipeline_Member_Property,Pipeline_Member_Property_ID,1,0,0
@@ -1214,10 +1218,10 @@ Identity_Value_ID,Table_Name,Column_Name,Next_Valid_Value,Global_User_ID,Row_Tim
 98,Project_Link,Project_Link_ID,1,0,0
 99,Project_Member,Project_Member_ID,1,0,0
 100,Project_Property,Project_Property_ID,1,0,0
-101,Property,Property_ID,266,0,0
+101,Property,Property_ID,267,0,0
 102,Property_Type,Property_Type_ID,12,0,0
 103,Property_Usage,Property_Usage_ID,1,0,0
-104,Property_Value,Property_Value_ID,301,0,0
+104,Property_Value,Property_Value_ID,303,0,0
 105,Property_Value_Usage,Property_Value_Usage_ID,1,0,0
 106,Record_Set_Type,Record_Set_Type_ID,1,0,0
 107,Rejected_Record_File,Rejected_Record_File_ID,1,0,0
@@ -1256,8 +1260,8 @@ Identity_Value_ID,Table_Name,Column_Name,Next_Valid_Value,Global_User_ID,Row_Tim
 140,Valid_Attachment_Type,Valid_Attachment_Type_ID,5,0,0
 141,Valid_Group,Valid_Group_ID,1,0,0
 142,Valid_MetaClass,Valid_MetaClass_ID,13,0,0
-143,Valid_Property,Valid_Property_ID,315,0,0
-144,Valid_Property_Value,Valid_Property_Value_ID,375,0,0
+143,Valid_Property,Valid_Property_ID,316,0,0
+144,Valid_Property_Value,Valid_Property_Value_ID,377,0,0
 145,View_Column,View_Column_ID,1,0,0
 146,View_Component,View_Component_ID,1,0,0
 147,View_Display,View_Display_ID,1,0,0
@@ -1607,6 +1611,7 @@ Property_ID,Name,Description,IsSystemRequired,Global_User_ID,Row_Time_Stamp
 263,Sybase ID Limit,NULL,0,0,0
 264,Import New Source Settings,NULL,0,0,0
 265,CASESPECIFIC,NULL,0,0,0
+266,Oracle Table Row Movement,NULL,0,0,0
 
 Property_Type
 Property_Type_ID,Name,Description,IsSystemRequired,Global_User_ID,Row_Time_Stamp
@@ -1924,6 +1929,8 @@ Property_Value_ID,Name,Description,Value,IsSystemRequired,Global_User_ID,Row_Tim
 298,Sybase IQ Limit,NULL,Sybase IQ Limit,0,0,0
 299,Import New Source Settings,NULL,Import New Source Settings,0,0,0
 300,CASESPECIFIC,NULL,CASESPECIFIC,0,0,0
+301,Table Row Movement Yes,NULL,Table Row Movement Yes,0,0,0
+302,Table Row Movement No,NULL,Table Row Movement No,0,0,0
 
 Valid_MetaClass
 Valid_MetaClass_ID,MetaClass_ID,MetaTable_ID,Global_User_ID,Row_Time_Stamp
@@ -2256,6 +2263,7 @@ Valid_Property_ID,Property_Type_ID,Property_ID,Label,IsMandatory,Global_User_ID,
 312,2,263,NULL,0,0,0
 313,8,264,NULL,0,0,0
 314,6,265,NULL,0,0,0
+315,1,266,NULL,0,0,0
 
 Valid_Property_Value
 Valid_Property_Value_ID,Property_Value_ID,Valid_Property_ID,Label,IsDefault,Global_User_ID,Row_Time_Stamp
@@ -2633,6 +2641,8 @@ Valid_Property_Value_ID,Property_Value_ID,Valid_Property_ID,Label,IsDefault,Glob
 372,298,312,NULL,0,0,0
 373,299,313,NULL,0,0,0
 374,300,314,NULL,0,0,0
+375,301,315,NULL,0,0,0
+376,302,315,NULL,0,0,0
 
 MetaClass_Member
 MetaClass_Member_ID,Valid_MetaClass_ID,Name,Label,Table_Row_ID,SequenceNo,Global_User_ID,Row_Time_Stamp
