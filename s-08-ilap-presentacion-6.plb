@@ -85,7 +85,7 @@ exec p_valida_eliminacion_main
 
 
 prompt Listo!
-exit
+--exit
 
 
 
