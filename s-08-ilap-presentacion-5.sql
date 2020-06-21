@@ -11,7 +11,7 @@ Prompt Eliminando datos ...
 declare
   v_formato varchar2(50) := 'yyy-mm-dd hh24:mi:ss';
 begin
-  dbms_output.put_line(to_char(sysdate,v_formato) || ' Eliminando datos de playlist');
+  dbms_output.put_line(to_char(sysdate,v_formato) || ' Eliminando datos de ilap');
   
   delete from HISTORICO_STATUS_LAPTOP;
   delete from LAPTOP_INVENTARIO;
