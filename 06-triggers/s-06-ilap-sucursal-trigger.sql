@@ -74,7 +74,9 @@ begin
             -- ver la clave del registro a borrar
             v_clave := substr(:old.clave,3,2);
             -- Delete en CAHABDD_S1
-            if (:old.es_taller = 1 and :old.es_venta = 1) or v_clave = 'NO' then
+            if (:old.es_taller = 1 and :old.es_venta = 1 and
+                (v_clave = 'EA' or v_clave = 'WS' or v_clave = 'SO'))
+                or v_clave = 'NO' then
                 delete from SUCURSAL_F1
                 where sucursal_id = :old.sucursal_id;
             -- Delete en CAHABDD_S2
