@@ -1,3 +1,4 @@
+
 --@Autor: Carlos A. Hernández A. & Marco A. Moreno Guerra
 --@Fecha creación: 16/Junio/2020
 --@Descripción: Creación del trigger para la vista SUCURSAL
@@ -26,7 +27,9 @@ begin
             -- ver la clave del nuevo registro
             v_clave := substr(:new.clave,3,2);
             -- Inserción en CAHABDD_S1
-            if (:new.es_taller = 1 and :new.es_venta = 1) or v_clave = 'NO' then
+            if (:new.es_taller = 1 and :new.es_venta = 1 and
+            (v_clave = 'EA' or v_clave = 'WS' or v_clave = 'SO'))
+            or v_clave = 'NO' then
 
                 insert into SUCURSAL_F1 (sucursal_id, clave, es_taller,
                     es_venta, nombre, latitud, longitud, url)
