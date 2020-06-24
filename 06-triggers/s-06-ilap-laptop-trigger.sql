@@ -14,7 +14,7 @@ begin
         v_num_serie := substr(:new.num_serie,1,1);
   
         -- Inserción CAHABDD_S2
-        if (v_num_serie >= '6' or v_num_serie <= '9') then
+        if (v_num_serie in ('6','7','8','9')) then
           insert into LAPTOP_F5(laptop_id,num_serie,cantidad_ram,caracteristicas_extras,tipo_tarjeta_video_id,
             tipo_procesador_id,tipo_almacenamiento_id,tipo_monitor_id,laptop_reemplazo_id)
           values(:new.laptop_id,:new.num_serie,:new.cantidad_ram,:new.caracteristicas_extras,:new.tipo_tarjeta_video_id,
