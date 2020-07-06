@@ -1,10 +1,10 @@
-# Creation of Distributed Relational Database
+# Creation of Relational Distributed Database
 
 ## Centralized Relational Model
 
 ![Centralized Relational Model](/Screenshots/global_scheme.jpg)
 
-## Distributed Relational Model
+## Relational Distributed Model
 
 ### Site CAHABDD_S1
 
