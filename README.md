@@ -26,12 +26,12 @@
 
 #### Implemented Local Mapping Transparency
 
-This requirenment was achieved using database links. These are defined
+This requirement was achieved using database links. These are defined
 in this script [link](s-02-ilap-ligas.sql)
 
 #### Implemented Location Transparency
 
-This requirenment was achieved using SYNONYMS for tables' names.
+This requirement was achieved using SYNONYMS for tables' names.
 
 Scripts for each site:
 
@@ -44,7 +44,7 @@ Scripts for each site:
 
 ##### Fragmentation Transparency for SELECT
 
-This requirenment was achieved using RECONSTRUCTION EXPRESSIONS
+This requirement was achieved using RECONSTRUCTION EXPRESSIONS
 for each entity:
 
 ![Reconstruction Expressions](/Screenshots/Reconstruction_Expressions.png)
@@ -53,29 +53,29 @@ These are views that use the reconstruction expressions.
 
 For example, Sucursal view is:
 
-```sql
+'''sql
 create or replace view SUCURSAL as
-  select sucursal_id,clave,es_taller,es_venta,nombre,latitud,longitud,url
-    from SUCURSAL_f1
-  union all
-  select sucursal_id,clave,es_taller,es_venta,nombre,latitud,longitud,url
-    from SUCURSAL_f2
-  union all
-  select sucursal_id,clave,es_taller,es_venta,nombre,latitud,longitud,url
-    from SUCURSAL_f3
-  union all
-  select sucursal_id,clave,es_taller,es_venta,nombre,latitud,longitud,url
-    from SUCURSAL_f4;
-```
+select sucursal_id,clave,es_taller,es_venta,nombre,latitud,longitud,url
+from SUCURSAL_f1
+union all
+select sucursal_id,clave,es_taller,es_venta,nombre,latitud,longitud,url
+from SUCURSAL_f2
+union all
+select sucursal_id,clave,es_taller,es_venta,nombre,latitud,longitud,url
+from SUCURSAL_f3
+union all
+select sucursal_id,clave,es_taller,es_venta,nombre,latitud,longitud,url
+from SUCURSAL_f4;
+'''
 
 As can be seen, reconstruction expression is used to show
-all rows from all entitie's fragments distributed accross all nodes.
+all rows from all entitie's fragments distributed across all nodes.
 
 All views for all nodes are in [05-views-creation directory](/05-views-creation)
 
 ##### Fragmentation Transparency for INSERT and DELETE
 
-This requirenment was implemented using INSTEAD OF TRIGGERS for the views
+This requirement was implemented using INSTEAD OF TRIGGERS for the views
 created for SELECT Fragmentation Transparency.
 
 When INSERT or DELETE is made on a view, triggers operation
@@ -85,8 +85,8 @@ All scripts to create triggers can be found in [06-triggers directory](/06-trigg
 
 #### Replication using Triggers
 
-Instantanous replication using Triggers to have the following
-tables replicated accross all nodes:
+Instantaneous replication using Triggers to have the following
+tables replicated across all nodes:
 
 - TIPO_PROCESADOR
 - TIPO_TARJETA_VIDEO
