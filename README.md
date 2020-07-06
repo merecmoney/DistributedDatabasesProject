@@ -1,4 +1,4 @@
-# Creation of Relational Database
+# Creation of Distributed Relational Database
 
 ## Centralized Relational Model
 
